@@ -1,0 +1,38 @@
+/* .navbar-brand {
+    color: #1D95FF !important;
+} */
+
+.form-container {
+    padding: 10px;
+}
+
+.navbar-light .navbar-brand {
+    color: #1D95FF;
+}
+
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #1D95FF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1D95FF;
+}
+
+.show-user-posts ul {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+}
+
+.show-user-posts li {
+    list-style: none;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+

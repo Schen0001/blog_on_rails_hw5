@@ -1,0 +1,9 @@
+<div>
+  <%= form_for(@new_post) do |f| %>
+    <%= f.label "Title" %> <br>
+      <%= f.text_field :title, :class=> "p-1 m-1 form-control" %> <br>
+        <%= f.label "Body" %> <br>
+          <%= f.text_field :body, :class=> "p-1 m-1 form-control" %> <br>
+            <%= f.submit "Create Post" , :class=> "btn btn-primary"%>
+              <% end %>
+</div>
